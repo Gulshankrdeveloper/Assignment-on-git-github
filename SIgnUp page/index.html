@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 40%;
+            height: 90vh;
+            background-color: black;
+            border-radius: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .signup-page{
+            height: 95%;
+            width: 80%;
+            background-color: white;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .items{
+            display: flex;
+            flex-direction: column;
+           font-weight: bold;
+            margin-top: 50px;
+            padding: 0 10px;
+        }
+        label{
+            margin-top: 15px;
+            margin-bottom: 3px;
+        }
+        input,select{
+            padding: 10px;
+        }
+        h2{
+            text-align: center;
+        }
+        .button{
+            margin-top: 20px;
+            padding: 5px;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="signup-page">
+            <div class="items">
+                <h2>Signup</h2>
+                <label for="">Name:</label>
+                <input type="text">
+                <label for="">Batch:</label>
+                <select name="" id="">
+                    <option value="">Sigma 2.0</option>
+                </select>
+                <label for="">Age:</label>
+                <input type="number">
+                <label for="">Email:</label>
+                <input type="email">
+                <label for="">Password:</label>
+                <input type="password">
+                <button class="button">Signup</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
